@@ -5,10 +5,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup as bs
 
 # setup
-driver_path = "D:\chromedriver_win32"
-username = "160218735059ECE"
-password = r"backspac\23"
-contest_link = "https://www.hackerrank.com/contests/nov-2020-ccc-vce-b-mitra-coding-practice/challenges"
+username = r"Type_Your_Username"
+password = r"Type_Your_Password"
+contest_link = r"Contest_Link"
 
 driver = webdriver.Chrome(ChromeDriverManager().install())
 search_url = "https://www.hackerrank.com/auth/login"
